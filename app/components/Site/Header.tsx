@@ -12,7 +12,7 @@ const SiteHeader = async () => {
   return (
     // Define the header with styling for sticky positioning, background, and padding.
     <header className="noscroll sticky top-0 z-10 overflow-auto bg-white dark:bg-gray-900 px-4 py-4 sm:px-6 lg:px-8">
-      <div className="wrapper mx-auto flex max-w-5xl items-center justify-between gap-4">
+      <div className="mx-auto flex max-w-5xl items-center justify-between gap-4">
         {/* Navigation link to the homepage. */}
         <Link href="/">
           <figure className="flex items-center">
